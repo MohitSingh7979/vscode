@@ -1,0 +1,109 @@
+{
+  "git.autofetch": true,
+  "editor.fontFamily": "'fira code', 'Droid Sans Mono', 'monospace', monospace",
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#00ff00",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "#",
+      "color": "#aaaaaa",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "remoteHub.commitDirectlyWarning": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.openRepositoryInParentFolders": "always",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "workbench.editorAssociations": {
+    "*.py": "default"
+  },
+  "jupyter.askForKernelRestart": false,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {},
+  "explorer.sortOrder": "type",
+  "explorer.confirmDelete": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "html.format.maxPreserveNewLines": 0,
+  "css.format.maxPreserveNewLines": 1,
+  "editor.minimap.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.stickyScroll.enabled": true,
+  "scm.defaultViewMode": "tree",
+  "search.defaultViewMode": "tree",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.renderWhitespace": "all",
+  "hediet.vscode-drawio.resizeImages": null,
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.letterSpacing": 1,
+  "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "remote.portsAttributes": {
+    "443": {
+      "protocol": "https"
+    },
+    "8443": {
+      "protocol": "https"
+    }
+  },
+  "liveServer.settings.host": "localhost",
+  "git.confirmSync": false,
+  "html.format.preserveNewLines": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
+}
