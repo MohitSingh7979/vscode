@@ -1,6 +1,6 @@
 {
   "git.autofetch": true,
-  "editor.fontFamily": "'fira code', 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontFamily": "Fira Code Regular",
   "better-comments.tags": [
     {
       "tag": "!",
@@ -105,5 +105,31 @@
   "html.format.preserveNewLines": false,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
-  }
+  },
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "editor.linkedEditing": true,
+  "editor.fontSize": 18,
+  "editor.fontLigatures": true
 }
