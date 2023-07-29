@@ -74,12 +74,11 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "html.format.maxPreserveNewLines": 0,
+  "html.format.maxPreserveNewLines": 1,
   "css.format.maxPreserveNewLines": 1,
   "editor.minimap.enabled": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
-  "editor.stickyScroll.enabled": true,
   "scm.defaultViewMode": "tree",
   "search.defaultViewMode": "tree",
   "workbench.colorTheme": "Visual Studio Dark",
@@ -104,7 +103,7 @@
   "git.confirmSync": false,
   "html.format.preserveNewLines": false,
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.autoSave": "afterDelay",
   "terminal.integrated.defaultProfile.windows": "PowerShell",
@@ -131,5 +130,10 @@
   },
   "editor.linkedEditing": true,
   "editor.fontSize": 18,
-  "editor.fontLigatures": true
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontFamily": "Fira Code Regular",
+  "terminal.integrated.lineHeight": 1.1,
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "emmet.triggerExpansionOnTab": true
 }

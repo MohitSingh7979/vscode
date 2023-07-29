@@ -70,10 +70,6 @@
     "when": "editorTextFocus && neovim.ctrlKeysInsert && neovim.mode == 'insert'"
   },
   {
-    "key": "ctrl+j",
-    "command": "-workbench.action.togglePanel"
-  },
-  {
     "key": "ctrl+k",
     "command": "-vscode-neovim.send",
     "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && neovim.mode != 'insert'"
@@ -163,16 +159,6 @@
     "command": "terminal.focus"
   },
   {
-    "key": "ctrl+\\",
-    "command": "workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
-  },
-  {
-    "key": "ctrl+`",
-    "command": "-workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
-  },
-  {
     "key": "alt+v",
     "command": "editor.action.marker.next",
     "when": "editorFocus"
@@ -193,5 +179,13 @@
   {
     "key": "ctrl+`",
     "command": "workbench.action.focusNextGroup"
+  },
+  {
+    "key": "ctrl+oem_5",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "-workbench.action.togglePanel"
   }
 ]
