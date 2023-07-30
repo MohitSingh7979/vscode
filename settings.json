@@ -125,7 +125,10 @@
     },
     "Ubuntu (WSL)": {
       "path": "C:\\WINDOWS\\System32\\wsl.exe",
-      "args": ["-d", "Ubuntu"]
+      "args": [
+        "-d",
+        "Ubuntu"
+      ]
     }
   },
   "editor.linkedEditing": true,
@@ -135,5 +138,6 @@
   "terminal.integrated.fontFamily": "Fira Code Regular",
   "terminal.integrated.lineHeight": 1.1,
   "path-intellisense.autoTriggerNextSuggestion": true,
-  "emmet.triggerExpansionOnTab": true
+  "emmet.triggerExpansionOnTab": true,
+  "editor.guides.bracketPairs": true
 }
