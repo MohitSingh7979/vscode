@@ -96,7 +96,7 @@
     "git.confirmSync": false,
     "html.format.preserveNewLines": false,
     "files.autoSave": "afterDelay",
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.profiles.windows": {
       "PowerShell": {
         "source": "PowerShell",
