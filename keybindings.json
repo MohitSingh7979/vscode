@@ -187,5 +187,10 @@
     {
       "key": "ctrl+j",
       "command": "-workbench.action.togglePanel"
+    },
+    {
+      "key": "ctrl+enter",
+      "command": "-jupyter.runcurrentcell",
+      "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !jupyter.havenativecells && !notebookEditorFocused"
     }
   ]

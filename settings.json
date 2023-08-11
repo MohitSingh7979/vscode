@@ -163,8 +163,19 @@
     "eslint.format.enable": true,
     "workbench.colorTheme": "Monokai",
     "workbench.iconTheme": "material-icon-theme",
-    "window.zoomLevel": 1,
     "files.insertFinalNewline": true,
     "editor.rename.enablePreview": false,
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+    "notebook.lineNumbers": "on",
+    "markdown.validate.unusedLinkDefinitions.enabled": "warning",
+    "notebook.output.fontFamily": "Fira Code",
+    "notebook.output.wordWrap": true,
+    "editor.find.autoFindInSelection": "always",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.callArgumentNames": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.downloadStubs": true,
+    "python.analysis.logLevel": "Trace",
+    "python.analysis.typeCheckingMode": "basic"
   }
