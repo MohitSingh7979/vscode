@@ -81,7 +81,6 @@
     "hediet.vscode-drawio.resizeImages": null,
     "terminal.integrated.gpuAcceleration": "on",
     "terminal.integrated.letterSpacing": 1,
-    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
     "diffEditor.ignoreTrimWhitespace": false,
     "remote.portsAttributes": {
       "443": {
@@ -121,9 +120,8 @@
       }
     },
     "editor.linkedEditing": true,
-    "editor.fontSize": 18,
+    "editor.fontSize": 19,
     "editor.fontLigatures": true,
-    "terminal.integrated.fontSize": 15,
     "terminal.integrated.fontFamily": "Fira Code Regular",
     "terminal.integrated.lineHeight": 1.1,
     "path-intellisense.autoTriggerNextSuggestion": true,
@@ -132,22 +130,8 @@
     "html.format.enable": false,
     "json.format.enable": false,
     "javascript.format.enable": false,
-    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
-    "javascript.format.insertSpaceAfterCommaDelimiter": false,
-    "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
-    "javascript.format.insertSpaceAfterSemicolonInForStatements": false,
-    "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
     "typescript.format.enable": false,
-    "typescript.format.insertSpaceAfterCommaDelimiter": false,
     "typescript.format.indentSwitchCase": false,
-    "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
-    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
-    "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
-    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
-    "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
-    "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
     "css.format.enable": false,
     "css.format.newlineBetweenRules": false,
     "css.format.newlineBetweenSelectors": false,
@@ -177,5 +161,62 @@
     "python.analysis.completeFunctionParens": true,
     "python.analysis.downloadStubs": true,
     "python.analysis.logLevel": "Trace",
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "javascript.format.semicolons": "insert",
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "javascript.suggest.completeFunctionCalls": true,
+    "typescript.suggest.completeFunctionCalls": true,
+    "markdown.preview.fontSize": 18,
+    "explorer.openEditors.minVisible": 1,
+    "explorer.openEditors.sortOrder": "fullPath",
+    "workbench.tree.indent": 15,
+    "workbench.tree.renderIndentGuides": "always",
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.profiles.linux": {
+
+      "bash": {
+        "path": "bash",
+        "icon": "terminal-bash"
+      },
+      "zsh": {
+        "path": "zsh"
+      },
+      "fish": {
+        "path": "fish"
+      },
+      "tmux": {
+        "path": "tmux",
+        "icon": "terminal-tmux"
+      },
+      "pwsh": {
+        "path": "pwsh",
+        "icon": "terminal-powershell"
+      }
+    },
+    "terminal.integrated.useWslProfiles": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "editor.autoClosingBrackets": "always",
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.NoBrowser": true,
+    "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+    "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+    "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+    "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+    "terminal.integrated.fontSize": 15,
+    "gitlens.views.contributors.showStatistics": true,
+    "gitHistory.sideBySide": true,
+    "typescript.format.semicolons": "insert",
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "typescript.format.insertSpaceAfterConstructor": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "typescript.format.insertSpaceAfterTypeAssertion": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": true
   }

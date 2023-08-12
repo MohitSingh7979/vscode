@@ -192,5 +192,14 @@
       "key": "ctrl+enter",
       "command": "-jupyter.runcurrentcell",
       "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !jupyter.havenativecells && !notebookEditorFocused"
+    },
+    {
+      "key": "ctrl+l",
+      "command": "-expandLineSelection",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "ctrl+l",
+      "command": "editor.action.selectToBracket"
     }
   ]
