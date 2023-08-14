@@ -116,7 +116,7 @@
     }
   },
   "editor.linkedEditing": true,
-  "editor.fontSize": 19,
+  "editor.fontSize": 18,
   "editor.fontLigatures": true,
   "terminal.integrated.fontFamily": "Fira Code Regular",
   "terminal.integrated.lineHeight": 1.1,
@@ -143,7 +143,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "files.insertFinalNewline": true,
   "editor.rename.enablePreview": false,
-  "workbench.editor.enablePreview": false,
   "notebook.lineNumbers": "on",
   "markdown.validate.unusedLinkDefinitions.enabled": "warning",
   "notebook.output.fontFamily": "Fira Code",
@@ -198,8 +197,6 @@
   "liveServer.settings.fullReload": true,
   "liveServer.settings.NoBrowser": true,
   "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
-  "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
-  "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
   "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
   "terminal.integrated.fontSize": 17,
   "gitlens.views.contributors.showStatistics": true,
@@ -226,9 +223,21 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "workbench.editor.wrapTabs": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "prettier.bracketSameLine": true,
+  "git.enableSmartCommit": true,
+  "window.zoomLevel": 1,
+  "editor.inlayHints.padding": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "workbench.activityBar.visible": false,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.enablePreview": false
 }

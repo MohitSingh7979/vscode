@@ -205,5 +205,13 @@
   {
     "key": "ctrl+shift+oem_7",
     "command": "prettier.forceFormatDocument"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "ctrl+alt+w",
+    "command": "workbench.action.openWorkspace"
   }
 ]
