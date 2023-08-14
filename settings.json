@@ -61,7 +61,8 @@
   "security.workspace.trust.untrustedFiles": "open",
   "git.openRepositoryInParentFolders": "always",
   "[python]": {
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.autopep8"
   },
   "workbench.editorAssociations": {
     "*.py": "default"
@@ -148,13 +149,6 @@
   "notebook.output.fontFamily": "Fira Code",
   "notebook.output.wordWrap": true,
   "editor.find.autoFindInSelection": "always",
-  "python.analysis.inlayHints.functionReturnTypes": true,
-  "python.analysis.inlayHints.pytestParameters": true,
-  "python.analysis.inlayHints.callArgumentNames": true,
-  "python.analysis.completeFunctionParens": true,
-  "python.analysis.downloadStubs": true,
-  "python.analysis.logLevel": "Trace",
-  "python.analysis.typeCheckingMode": "basic",
   "javascript.format.insertSpaceAfterConstructor": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
@@ -236,8 +230,20 @@
   "typescript.inlayHints.parameterTypes.enabled": true,
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   "typescript.inlayHints.variableTypes.enabled": true,
-  "workbench.activityBar.visible": false,
-  "editor.inlayHints.enabled": "offUnlessPressed",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.editor.enablePreview": false
+  "editor.folding": false,
+  "editor.glyphMargin": false,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.useInlineCompletions": true,
+  "python.analysis.inlayHints.callArgumentNames": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.completeFunctionParens": true,
+  "editor.suggest.matchOnWordStartOnly": true,
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.suggest.showStatusBar": true,
+  "editor.lineDecorationsWidth": 0
 }
