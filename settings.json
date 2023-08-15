@@ -246,18 +246,20 @@
   "editor.suggest.showStatusBar": true,
   "editor.lineDecorationsWidth": 0,
   "workbench.activityBar.visible": false,
-  "editor.inlineSuggest.suppressSuggestions": true,
   "editor.suggest.showKeywords": false,
   "editor.showDeprecated": false,
   "editor.suggest.showDeprecated": false,
   "editor.suggest.showMethods": false,
-  "editor.snippetSuggestions": "top",
+  "editor.snippetSuggestions": "inline",
+  "editor.quickSuggestionsDelay": 5,
+  // "editor.suggest.showProperties": false,
+  // "editor.inlineSuggest.enabled": false,
+  // "editor.suggest.showWords": false,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  // "editor.suggest.showTypeParameters": false,
+  "editor.suggest.showVariables": false,
   "editor.quickSuggestions": {
     "comments": "on",
     "strings": "on"
-  },
-  "editor.quickSuggestionsDelay": 5,
-  "editor.suggest.showProperties": false,
-  "editor.suggest.showTypeParameters": false,
-  "editor.suggest.showWords": false
+  }
 }
