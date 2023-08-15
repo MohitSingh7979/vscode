@@ -230,7 +230,7 @@
     "key": "ctrl+alt+s",
     "command": "workbench.action.toggleEditorWidths"
   },
-  {
+/*   {
     "key": "f1",
     "command": "-workbench.action.showCommands"
   },
@@ -244,4 +244,5 @@
     "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
     "when": "inFilesPicker && inQuickOpen"
   }
+ */
 ]

@@ -239,11 +239,25 @@
   "python.analysis.inlayHints.functionReturnTypes": true,
   "python.analysis.inlayHints.pytestParameters": true,
   "python.analysis.inlayHints.variableTypes": true,
-  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoImportCompletions": false,
   "python.analysis.completeFunctionParens": true,
   "editor.suggest.matchOnWordStartOnly": true,
   "editor.inlineSuggest.showToolbar": "always",
-  "editor.inlineSuggest.suppressSuggestions": true,
   "editor.suggest.showStatusBar": true,
-  "editor.lineDecorationsWidth": 0
+  "editor.lineDecorationsWidth": 0,
+  "workbench.activityBar.visible": false,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.suggest.showKeywords": false,
+  "editor.showDeprecated": false,
+  "editor.suggest.showDeprecated": false,
+  "editor.suggest.showMethods": false,
+  "editor.snippetSuggestions": "top",
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on"
+  },
+  "editor.quickSuggestionsDelay": 5,
+  "editor.suggest.showProperties": false,
+  "editor.suggest.showTypeParameters": false,
+  "editor.suggest.showWords": false
 }
