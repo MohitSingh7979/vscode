@@ -1,7 +1,56 @@
 {
   "git.autofetch": true,
   "editor.fontFamily": "Fira Code Regular",
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.autoClosingBrackets": "always",
+  "gitHistory.sideBySide": true,
+  "git.enableSmartCommit": true,
+  "editor.renderWhitespace": "all" /* show dots on spaces */,
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.definitionLinkOpensInPeek": false /* true */,
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "notebook.formatOnSave.enabled": true,
+  "notebook.formatOnCellExecution": true,
+  "liveServer.settings.donotShowInfoMsg": true /* popup */,
+  "workbench.startupEditor": "none",
+  "editor.stickyScroll.enabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.wordWrap": "on",
+  "editor.guides.bracketPairs": true,
+  "css.format.spaceAroundSelectorSeparator": true,
+  "editor.experimentalInlineEdit.backgroundColoring": true,
+  "editor.defaultColorDecorators": true /* extension requirement */,
+  "html.format.templating": true,
+  "html.format.indentHandlebars": true,
+  "workbench.iconTheme": "material-icon-theme" /* file icon required extension */,
+  "css.format.preserveNewLines": false,
+  "explorer.confirmDelete": false,
+  "workbench.editor.decorations.colors": true,
+  "C_Cpp.enhancedColorization": "enabled" /* enabled */,
+  "C_Cpp.clang_format_style": "file",
+  "C_Cpp.formatting": "vcFormat" /* must be vcFormat: bcoz of {} */,
+  "problems.showCurrentInStatus": true,
+  // "indentRainbow.excludedLanguages": [],
+  "indentRainbow.updateDelay": 1,
+  // "indentRainbow.colorOnWhiteSpaceOnly": true, /* true */
   "better-comments.tags": [
+    /* extension required */
+    {
+      "tag": ".",
+      "color": "#FFF",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
     {
       "tag": "!",
       "color": "#FF2D00",
@@ -23,7 +72,7 @@
     {
       "tag": "//",
       "color": "#00ff00",
-      "strikethrough": true,
+      "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
       "bold": false,
@@ -57,261 +106,145 @@
       "italic": false
     }
   ],
-  "remoteHub.commitDirectlyWarning": "off",
-  "security.workspace.trust.untrustedFiles": "open",
-  "git.openRepositoryInParentFolders": "always",
-  "[python]": {
-    "editor.formatOnType": true,
-    "editor.defaultFormatter": "ms-python.autopep8"
+  "better-comments.multilineComments": true,
+  "workbench.preferredHighContrastColorTheme": "Monokai" /* Monokai or Dracula */,
+  "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
+  "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true,
+  "C_Cpp.vcFormat.newLine.scopeBracesOnSeparateLines": true,
+  "gitHistory.alwaysPromptRepositoryPicker": true,
+  "task.quickOpen.showAll": true,
+  "editor.hover.delay": 0 /* 10 */,
+  "editor.hover.hidingDelay": 0 /* 10 */,
+  "errorLens.editorHoverPartsEnabled": {
+    /* all true */
+    "messageEnabled": true,
+    "sourceCodeEnabled": true,
+    "buttonsEnabled": true
   },
-  "workbench.editorAssociations": {
-    "*.py": "default",
-    "*.md": "default",
-    "*.jpg": "cweijan.officeViewer"
-  },
-  "jupyter.askForKernelRestart": false,
-  "editor.tabSize": 2,
-  "editor.codeActionsOnSave": {},
-  "explorer.sortOrder": "type",
-  "explorer.confirmDelete": false,
-  "html.format.maxPreserveNewLines": 1,
-  "css.format.maxPreserveNewLines": 0,
-  "editor.minimap.enabled": false,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.donotVerifyTags": true,
-  "scm.defaultViewMode": "tree",
-  "search.defaultViewMode": "tree",
-  "hediet.vscode-drawio.resizeImages": null,
-  "terminal.integrated.gpuAcceleration": "on",
-  "terminal.integrated.letterSpacing": 1,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "remote.portsAttributes": {
-    "443": {
-      "protocol": "https"
-    },
-    "8443": {
-      "protocol": "https"
-    }
-  },
-  "liveServer.settings.host": "localhost",
-  "git.confirmSync": false,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.profiles.windows": {
-    "PowerShell": {
-      "source": "PowerShell",
-      "icon": "terminal-powershell"
-    },
-    "Command Prompt": {
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
-      ],
-      "args": [],
-      "icon": "terminal-cmd"
-    },
-    "Git Bash": {
-      "source": "Git Bash"
-    },
-    "Ubuntu (WSL)": {
-      "path": "C:\\WINDOWS\\System32\\wsl.exe",
-      "args": ["-d", "Ubuntu"]
-    }
-  },
-  "editor.linkedEditing": true,
-  "editor.fontSize": 18,
-  "editor.fontLigatures": true,
-  "terminal.integrated.fontFamily": "Fira Code Regular",
-  "terminal.integrated.lineHeight": 1.1,
-  "path-intellisense.autoTriggerNextSuggestion": true,
-  "emmet.triggerExpansionOnTab": true,
-  "editor.guides.bracketPairs": true,
-  "json.format.enable": false,
-  "typescript.format.enable": false,
-  "typescript.format.indentSwitchCase": false,
-  "css.format.newlineBetweenRules": false,
-  "css.format.newlineBetweenSelectors": false,
-  "css.format.preserveNewLines": false,
-  "less.format.enable": false,
-  "less.format.newlineBetweenRules": false,
-  "less.format.newlineBetweenSelectors": false,
-  "less.format.preserveNewLines": false,
-  "scss.format.enable": false,
-  "scss.format.newlineBetweenRules": false,
-  "scss.format.newlineBetweenSelectors": false,
-  "scss.format.preserveNewLines": false,
-  "eslint.format.enable": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "files.insertFinalNewline": true,
-  "notebook.lineNumbers": "on",
-  "markdown.validate.unusedLinkDefinitions.enabled": "warning",
-  "notebook.output.fontFamily": "Fira Code",
-  "notebook.output.wordWrap": true,
-  "typescript.suggest.completeFunctionCalls": true,
-  "markdown.preview.fontSize": 18,
-  "explorer.openEditors.minVisible": 1,
-  "explorer.openEditors.sortOrder": "fullPath",
-  "workbench.tree.indent": 15,
-  "workbench.tree.renderIndentGuides": "always",
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "typescript.referencesCodeLens.enabled": true,
-  "files.trimTrailingWhitespace": true,
-  "terminal.integrated.profiles.linux": {
-    "bash": {
-      "path": "bash",
-      "icon": "terminal-bash"
-    },
-    "zsh": {
-      "path": "zsh"
-    },
-    "fish": {
-      "path": "fish"
-    },
-    "tmux": {
-      "path": "tmux",
-      "icon": "terminal-tmux"
-    },
-    "pwsh": {
-      "path": "pwsh",
-      "icon": "terminal-powershell"
-    }
-  },
-  "terminal.integrated.useWslProfiles": false,
-  "editor.autoClosingBrackets": "always",
-  "liveServer.settings.fullReload": true,
-  "terminal.integrated.fontSize": 17,
-  "gitlens.views.contributors.showStatistics": true,
-  "gitHistory.sideBySide": true,
-  "typescript.format.semicolons": "insert",
-  "typescript.format.insertSpaceAfterConstructor": true,
-  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
-  "typescript.format.insertSpaceAfterTypeAssertion": true,
-  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "editor.formatOnPaste": true,
-  "editor.wordWrapColumn": 60,
-  "html.format.indentHandlebars": true,
-  "html.format.indentInnerHtml": true,
-  "html.format.templating": true,
-  "git.enableSmartCommit": true,
-  "editor.inlayHints.padding": true,
-  "typescript.inlayHints.enumMemberValues.enabled": true,
-  "typescript.inlayHints.parameterTypes.enabled": true,
-  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "typescript.inlayHints.variableTypes.enabled": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "editor.glyphMargin": false,
-  "emmet.showSuggestionsAsSnippets": true,
-  "emmet.useInlineCompletions": true,
-  "python.analysis.inlayHints.callArgumentNames": "partial",
-  "python.analysis.inlayHints.functionReturnTypes": true,
-  "python.analysis.inlayHints.pytestParameters": true,
-  "python.analysis.inlayHints.variableTypes": true,
-  "python.analysis.autoImportCompletions": false,
-  "python.analysis.completeFunctionParens": true,
-  "editor.suggest.matchOnWordStartOnly": true,
+  "editor.experimentalInlineEdit.showToolbar": "always",
   "editor.inlineSuggest.showToolbar": "always",
-  "editor.suggest.showStatusBar": true,
-  "editor.lineDecorationsWidth": 0,
-  "editor.showDeprecated": false,
-  "editor.snippetSuggestions": "top",
-  "editor.quickSuggestionsDelay": 1,
-  // "editor.suggest.showProperties": false,
-  // "editor.inlineSuggest.enabled": false,
-  // "editor.suggest.showWords": false,
-  "editor.inlineSuggest.suppressSuggestions": true,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.view.alwaysShowHeaderActions": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "liveServer.settings.CustomBrowser": "chrome:PrivateMode" /* must be private : temp file info saved */,
+  "markdown.extension.completion.enabled": true,
+  "terminal.integrated.initialHint": true,
+  "markdown.extension.preview.autoShowPreviewToSide": true /* true */,
   "editor.quickSuggestions": {
+    /* all true */
     "comments": "on",
     "strings": "on"
   },
-  "editor.suggest.preview": true,
-  "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
-  "r.rterm.windows": "C:\\Program Files\\R\\R-4.3.1\\bin\\x64\\Rterm.exe",
-  "editor.accessibilitySupport": "off",
-  "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
-  "search.smartCase": true,
-  "editor.wordBasedSuggestions": "allDocuments",
-  "search.showLineNumbers": true,
-  "editor.suggestSelection": "recentlyUsedByPrefix",
-  "files.trimFinalNewlines": true,
-  "css.format.spaceAroundSelectorSeparator": true,
-  "breadcrumbs.enabled": false,
-  "window.zoomLevel": 1,
-  "[markdown]": {},
-  "typescript.referencesCodeLens.showOnAllFunctions": true,
-  "workbench.settings.applyToAllProfiles": [
-    "editor.formatOnType",
-    "editor.defaultFormatter",
-    "editor.formatOnSaveMode"
-  ],
-  "editor.formatOnType": true,
-  "files.autoSaveDelay": 500,
-  "editor.suggestOnTriggerCharacters": true,
-  "typescript.inlayHints.parameterNames.enabled": "all",
-  "html-css-class-completion.enableEmmetSupport": true,
-  "tailwindCSS.emmetCompletions": true,
-  "css.autoValidation": "Always",
-  "css.styleSheets": [
-    "node_modules/bootstrap/dist/css/bootstrap.css",
-    "src/**/*.scss",
-    "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
-    "src/**/*.css"
-  ],
-  "css.enabledLanguages": ["css", "html"],
-  "notebook.compactView": false,
-  "redhat.telemetry.enabled": false,
-  "explorer.compactFolders": false,
-  "git-graph.commitDetailsView.fileView.fileTree.compactFolders": false,
-  "window.menuBarVisibility": "visible",
-  "editor.inlayHints.fontSize": 1,
-  "java.edit.smartSemicolonDetection.enabled": true,
-  "editor.formatOnSave": true,
-  "editor.autoClosingDelete": "always",
-  "editor.autoClosingOvertype": "always",
-  "java.inlayHints.parameterNames.enabled": "all",
-  // "less.format.spaceAroundSelectorSeparator": true,
-  // "scss.format.spaceAroundSelectorSeparator": true,
-  "markdown.extension.theming.decoration.renderTrailingSpace": true,
-  "editor.unfoldOnClickAfterEndOfLine": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "typescript.experimental.aiCodeActions": {},
-  "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
-  "javascript.suggest.completeFunctionCalls": true,
-  "editor.suggest.shareSuggestSelections": true,
-  "notebook.formatOnSave.enabled": true,
-  "files.autoSaveWhenNoErrors": true,
-  "files.autoSaveWorkspaceFilesOnly": true,
-  "accessibility.signals.noInlayHints": {
-    "sound": "on"
-  },
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.quickSuggestionsDelay": 0 /* 1 */,
+  "editor.suggest.snippetsPreventQuickSuggestions": true /* true */,
+  "editor.inlineSuggest.suppressSuggestions": true /* true */,
+  "emmet.showSuggestionsAsSnippets": false /* true */,
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "colorful-comments.tags": [
+    /* best extension for comments */
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#0076FF",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "^",
+      "color": "#EAF622",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#28FF00",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "&",
+      "color": "#FF06A0",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "~",
+      "color": "#BE00FF",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "html.format.maxPreserveNewLines": 1 /* 1 */,
+  "editor.tokenColorCustomizations": {
+    /* inbuild customize coloring */
+    "comments": {
+      "foreground": "#ffffff",
+      "fontStyle": "italic"
+    }
+  },
+  "explorer.compactFolders": false /* false: hard to understand file tree */,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.fontLigatures": true /* for fira code fonts */,
+  "workbench.activityBar.location": "top",
+  /* above code works fine */
+
+  "editor.showFoldingControls": "always",
+  "editor.unfoldOnClickAfterEndOfLine": true,
+  "editor.semanticHighlighting.enabled": true /* must be true */,
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "C_Cpp.autocompleteAddParentheses": true,
-  "C_Cpp.inlayHints.referenceOperator.enabled": true,
-  "files.autoSave": "afterDelay",
-  "prettier.bracketSameLine": true,
-  "C_Cpp.vcFormat.indent.withinParentheses": "alignToParenthesis",
-  "C_Cpp.vcFormat.indent.multiLineRelativeTo": "outermostParenthesis",
-  "C_Cpp.vcFormat.newLine.beforeElse": false,
-  "C_Cpp.vcFormat.newLine.beforeCatch": false,
-  "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
-  "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
-  "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
-  "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
-  "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true,
-  "C_Cpp.vcFormat.wrap.preserveBlocks": "allOneLineScopes",
-  "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
-  "workbench.activityBar.location": "top",
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.stickyScroll.enabled": false
-  // "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true
-  // "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
-  // "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "better-comments.highlightPlainText": true /* true */,
+  "colorful-comments.highlightPlainText": true /* every word or line will be colorful*/,
+  "workbench.colorTheme": "Dracula" /* Dracula or Monokai */,
+  "C_Cpp.vcFormat.indent.preserveComments": true,
 }
