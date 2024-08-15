@@ -310,11 +310,16 @@
   },
   {
     "key": "ctrl+g",
-    "command": "git.commitAll"
+    "command": "-workbench.action.gotoLine"
   },
   {
     "key": "ctrl+g",
-    "command": "-workbench.action.gotoLine"
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
   },
-  
+  {
+    "key": "ctrl+shift+g g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  }
 ]
