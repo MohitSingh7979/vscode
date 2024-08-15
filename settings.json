@@ -48,6 +48,16 @@
       "bold": false,
       "italic": false
     },
+    /* extension required */
+    {
+      "tag": ".",
+      "color": "#FFF",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
     {
       "tag": "!",
       "color": "#FF2D00",
@@ -198,6 +208,13 @@
       "backgroundColor": "transparent",
       "bold": false,
       "italic": false
+    {
+      "tag": "~",
+      "color": "#BE00FF",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
     },
     {
       "tag": "todo",
@@ -221,6 +238,9 @@
   },
   "explorer.compactFolders": false /* false: hard to understand file tree */,
   "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
