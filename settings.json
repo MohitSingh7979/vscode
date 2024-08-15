@@ -221,7 +221,7 @@
   },
   "explorer.compactFolders": false /* false: hard to understand file tree */,
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -320,17 +320,21 @@
   "editor.snippetSuggestions": "top",
   "editor.suggest.showInlineDetails": true,
 
-  "editor.lineDecorationsWidth":0,
+  "editor.lineDecorationsWidth": 0,
   "editor.glyphMargin": false,
   "editor.folding": true,
   "code-runner.saveFileBeforeRun": true,
   "code-runner.showExecutionMessage": false,
   "code-runner.clearPreviousOutput": true,
   "editor.tabFocusMode": false,
-  "files.autoSave": "afterDelay",
   "editor.codeLens": true,
-  "editor.inlayHints.enabled":"on",
+  "editor.inlayHints.enabled": "on",
   "editor.inlineSuggest.enabled": true,
-  
-
+  "gitlens.graph.minimap.additionalTypes": [
+    "localBranches",
+    "stashes",
+    "remoteBranches",
+    "pullRequests",
+    "tags"
+  ]
 }
