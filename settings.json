@@ -8,8 +8,7 @@
   "editor.renderWhitespace": "all" /* show dots on spaces */,
   "editor.linkedEditing": true,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.definitionLinkOpensInPeek": false /* true */,
-  "editor.tabSize": 2,
+  "editor.definitionLinkOpensInPeek": false,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
@@ -135,9 +134,7 @@
     "strings": "on"
   },
   "editor.quickSuggestionsDelay": 0 /* 1 */,
-  "editor.suggest.snippetsPreventQuickSuggestions": true /* true */,
-  "editor.inlineSuggest.suppressSuggestions": true /* true */,
-  "emmet.showSuggestionsAsSnippets": false /* true */,
+  "emmet.showSuggestionsAsSnippets": true /* true */,
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -251,7 +248,7 @@
   // "diffEditor.codeLens": false,
   // "todo-tree.general.statusBar": "total" /* true */,
   /* experiments finished after codelens */
-  /* stylelint will validated below : false */
+  /* style lint will validated below : false */
   "css.validate": true,
   "less.validate": true,
   "scss.validate": true,
@@ -317,8 +314,9 @@
     "editor.defaultFormatter": "Oracle.oracle-java"
   },
   "editor.tabCompletion": "on",
-  "editor.snippetSuggestions": "top",
+  "editor.snippetSuggestions": "bottom",
   "editor.suggest.showInlineDetails": true,
+  "editor.suggest.preview": true,
 
   "editor.lineDecorationsWidth": 0,
   "editor.glyphMargin": false,
@@ -336,5 +334,55 @@
     "remoteBranches",
     "pullRequests",
     "tags"
-  ]
+  ],
+  "javascript.suggest.completeFunctionCalls": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.useInlineCompletions": true,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "editor.suggest.snippetsPreventQuickSuggestions": true /* true */,
+  "editor.inlineSuggest.suppressSuggestions": true /* true */,
+  "editor.suggest.showProperties": true,
+  "reactSnippets.settings.typescript": false,
+  "reactSnippets.settings.languageScopes": "javascriptreact",
+
+  /* gitlens*/
+  "gitlens.currentLine.enabled": false,
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "editor.fontSize": 18,
+  "errorLens.statusBarIconsEnabled": true,
+  "errorLens.exclude": ["\"appdata\": Unknown word\\."],
+  "editor.suggestSelection": "recentlyUsed",
+  "files.autoSave": "afterDelay",
+  "window.menuBarVisibility": "classic",
+
+  /* error testing install more extensions */
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.inlayHints.parameterNames.enabled": "all",
+
+  "editor.codeActions.triggerOnFocusChange": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.autoClosingComments": "always",
+  "editor.autoClosingQuotes": "always",
+  "files.autoSaveWhenNoErrors": true,
+  "template-string-converter.autoRemoveTemplateString": true,
+  "comments": "on",
+  "strings": "on",
+  "workbench.list.typeNavigationMode": "trigger",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "material-icon-theme.activeIconPack": "react",
+  "indentRainbow.lightIndicatorStyleLineWidth": 10,
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.excludedLanguages": [],
+  "errorLens.delay": 0,
+  "errorLens.codeLensEnabled": true,
+  "errorLens.enabled": true,
+  "errorLens.messageEnabled": true
 }
