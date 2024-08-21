@@ -390,7 +390,6 @@
   "emmet.optimizeStylesheetParsing": true,
   "editor.snippetSuggestions": "top",
   "emmet.showSuggestionsAsSnippets": true,
-  "gitlens.mode.active": "zen",
   "zenMode.centerLayout": false,
   "files.autoSave": "afterDelay",
   "workbench.editor.enablePreviewFromCodeNavigation": true,
