@@ -1,7 +1,7 @@
 {
   "git.autofetch": true,
   "editor.fontFamily": "Fira Code Regular",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
   "editor.autoClosingBrackets": "always",
   "gitHistory.sideBySide": true,
   "git.enableSmartCommit": true,
@@ -122,7 +122,12 @@
   "workbench.tree.renderIndentGuides": "always",
   "workbench.view.alwaysShowHeaderActions": true,
   "[markdown]": {
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    }
   },
   "editor.minimap.enabled": false,
   "liveServer.settings.CustomBrowser": "chrome:PrivateMode" /* must be private : temp file info saved */,
@@ -133,8 +138,7 @@
     "comments": "on",
     "strings": "on"
   },
-  "editor.quickSuggestionsDelay": 0 /* 1 */,
-  "emmet.showSuggestionsAsSnippets": true /* true */,
+  "editor.quickSuggestionsDelay": 0 /* true */,
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -304,7 +308,6 @@
   // "C_Cpp.vcFormat.space.beforeBlockOpenBrace": false,
   // "C_Cpp.vcFormat.space.preserveInInitializerList": false,
   "colorful-comments.multilineComments": true,
-  "window.commandCenter": false,
   "git.confirmSync": false,
   "editor.unfoldOnClickAfterEndOfLine": true,
   "workbench.colorTheme": "Default Light Modern",
@@ -314,7 +317,6 @@
     "editor.defaultFormatter": "Oracle.oracle-java"
   },
   "editor.tabCompletion": "on",
-  "editor.snippetSuggestions": "bottom",
   "editor.suggest.showInlineDetails": true,
   "editor.suggest.preview": true,
 
@@ -337,25 +339,19 @@
   ],
   "javascript.suggest.completeFunctionCalls": true,
   "emmet.triggerExpansionOnTab": true,
-  "emmet.useInlineCompletions": true,
   "files.associations": {
     "*.js": "javascriptreact"
-  },
-  "editor.suggest.snippetsPreventQuickSuggestions": true /* true */,
-  "editor.inlineSuggest.suppressSuggestions": true /* true */,
+  } /* true */,
   "editor.suggest.showProperties": true,
   "reactSnippets.settings.typescript": false,
   "reactSnippets.settings.languageScopes": "javascriptreact",
 
   /* gitlens*/
   "gitlens.currentLine.enabled": false,
-  "markdown.extension.preview.autoShowPreviewToSide": true,
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
   "errorLens.statusBarIconsEnabled": true,
-  "errorLens.exclude": ["\"appdata\": Unknown word\\."],
   "editor.suggestSelection": "recentlyUsed",
-  "files.autoSave": "afterDelay",
-  "window.menuBarVisibility": "classic",
+  "window.menuBarVisibility": "compact",
 
   /* error testing install more extensions */
 
@@ -373,16 +369,60 @@
   "editor.autoClosingQuotes": "always",
   "files.autoSaveWhenNoErrors": true,
   "template-string-converter.autoRemoveTemplateString": true,
-  "comments": "on",
-  "strings": "on",
   "workbench.list.typeNavigationMode": "trigger",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "material-icon-theme.activeIconPack": "react",
   "indentRainbow.lightIndicatorStyleLineWidth": 10,
   "indentRainbow.indicatorStyle": "light",
   "indentRainbow.excludedLanguages": [],
+  /* errorLens */
   "errorLens.delay": 0,
   "errorLens.codeLensEnabled": true,
   "errorLens.enabled": true,
-  "errorLens.messageEnabled": true
+  "errorLens.messageEnabled": false,
+  "errorLens.codeLens.color": "red",
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+  "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+  "reactSnippets.settings.importReactOnTop": false,
+  "emmet.showAbbreviationSuggestions": true,
+  "emmet.optimizeStylesheetParsing": true,
+  "editor.snippetSuggestions": "top",
+  "emmet.showSuggestionsAsSnippets": true,
+  "window.commandCenter": false,
+  "gitlens.mode.active": "zen",
+  "zenMode.centerLayout": false,
+  "files.autoSave": "afterDelay",
+  "workbench.editor.enablePreviewFromCodeNavigation": true,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "markdown.preview.openMarkdownLinks": "inEditor",
+  "inlineFold.unfoldOnLineSelect": true,
+  "inlineFold.supportedLanguages": [
+    "astro",
+    "vue",
+    "html",
+    "svelte",
+    "vue-html",
+    "php",
+    "blade",
+    "erb",
+    "twig",
+    "nunjucks",
+    "django-html",
+    "jinja-html",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "md"
+  ],
+  "editor.wordBasedSuggestions": "allDocuments",
+  "git.openRepositoryInParentFolders": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "reactSnippets.settings.prettierEnabled": true,
+  "liveshare.increasedGuestLimit": false,
+  "markdown.preview.typographer": true,
+  "markdown.validate.enabled": true,
+  "telemetry.telemetryLevel": "off"
 }
