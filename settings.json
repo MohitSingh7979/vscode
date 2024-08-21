@@ -348,7 +348,7 @@
 
   /* gitlens*/
   "gitlens.currentLine.enabled": false,
-  "editor.fontSize": 16,
+  "editor.fontSize": 18,
   "errorLens.statusBarIconsEnabled": true,
   "editor.suggestSelection": "recentlyUsed",
   "window.menuBarVisibility": "compact",
@@ -429,5 +429,25 @@
     "asvetliakov.vscode-neovim": 1
   },
   "vscode-neovim.ctrlKeysForNormalMode": [],
-  "vscode-neovim.ctrlKeysForInsertMode": []
+  "vscode-neovim.ctrlKeysForInsertMode": [],
+  "vim.commandLineModeKeyBindings": [],
+  "vim.easymotion": true,
+  "vim.enableNeovim": true,
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false
+  },
+  "vim.highlightedyank.enable": true,
+  "vim.smartRelativeLine": true,
+  "vim.statusBarColorControl": true,
+  "vim.useCtrlKeys": false,
+  "vim.useSystemClipboard": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#005f5f",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.debuggingForeground": "#ffffff"
+  }
 }
