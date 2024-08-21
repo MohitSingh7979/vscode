@@ -390,7 +390,6 @@
   "emmet.optimizeStylesheetParsing": true,
   "editor.snippetSuggestions": "top",
   "emmet.showSuggestionsAsSnippets": true,
-  "window.commandCenter": false,
   "gitlens.mode.active": "zen",
   "zenMode.centerLayout": false,
   "files.autoSave": "afterDelay",
@@ -424,5 +423,11 @@
   "liveshare.increasedGuestLimit": false,
   "markdown.preview.typographer": true,
   "markdown.validate.enabled": true,
-  "telemetry.telemetryLevel": "off"
+  "telemetry.telemetryLevel": "off",
+  "window.commandCenter": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "vscode-neovim.ctrlKeysForNormalMode": [],
+  "vscode-neovim.ctrlKeysForInsertMode": []
 }
