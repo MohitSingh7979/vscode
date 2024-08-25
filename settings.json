@@ -1,4 +1,24 @@
 {
+  /* indentRainbow */
+  "indentRainbow.lightIndicatorStyleLineWidth": 10,
+  "indentRainbow.indicatorStyle": "classic",
+  "indentRainbow.excludedLanguages": [],
+  "indentRainbow.updateDelay": 0,
+  "indentRainbow.colorOnWhiteSpaceOnly": true /* true */,
+
+  "indentRainbow.colors": [
+    "rgba(255, 99, 71, 0.5)", // Tomato
+    "rgba(135, 206, 235, 0.5)", // Sky Blue
+    "rgba(144, 238, 144, 0.5)", // Light Green
+    "rgba(255, 215, 0, 0.5)", // Gold
+    "rgba(255, 182, 193, 0.5)", // Light Pink
+    "rgba(255, 165, 0, 0.5)", // Orange
+    "rgba(75, 0, 130, 0.5)", // Indigo
+    "rgba(100, 149, 237, 0.5)", // Cornflower Blue
+    "rgba(255, 105, 180, 0.5)", // Hot Pink
+    "rgba(173, 216, 230, 0.5)" // Light Blue
+  ],
+
   /* errorLens */
 
   "errorLens.gutterIconsEnabled": true,
