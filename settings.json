@@ -1,4 +1,22 @@
 {
+  /* errorLens */
+
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.statusBarIconsEnabled": true,
+  "errorLens.delay": 0,
+  "errorLens.codeLensEnabled": false,
+  "errorLens.enabled": true,
+  "errorLens.messageEnabled": true,
+  "errorLens.codeLens.color": "red",
+  "errorLens.fontSize": "14",
+  "errorLens.messageBackgroundMode": "message",
+
+  "errorLens.editorHoverPartsEnabled": {
+    "messageEnabled": false,
+    "sourceCodeEnabled": false,
+    "buttonsEnabled": false
+  },
+
   /* git and gitlens */
 
   "gitHistory.alwaysPromptRepositoryPicker": true,
