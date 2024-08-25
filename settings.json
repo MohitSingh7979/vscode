@@ -1,4 +1,29 @@
 {
+  /* git and gitlens */
+
+  "gitHistory.alwaysPromptRepositoryPicker": true,
+  "git.autofetch": true,
+  "gitHistory.sideBySide": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "gitlens.currentLine.enabled": false,
+  "git.openRepositoryInParentFolders": "always",
+  "git.confirmEmptyCommits": false,
+  "git.alwaysShowStagedChangesResourceGroup": true,
+  "git.timeline.showUncommitted": true,
+  "gitlens.graph.onlyFollowFirstParent": true,
+  "gitlens.graph.dimMergeCommits": true,
+  "gitlens.graph.layout": "editor",
+  "gitlens.views.commitDetails.files.layout": "tree",
+
+  "gitlens.graph.minimap.additionalTypes": [
+    "localBranches",
+    "stashes",
+    "remoteBranches",
+    "pullRequests",
+    "tags"
+  ],
+
   /* editor settings */
 
   "editor.fontFamily": "Fira Code Regular",
