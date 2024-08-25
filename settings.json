@@ -159,31 +159,15 @@
   "vim.autoSwitchInputMethod.enable": true,
   "vim.changeWordIncludesWhitespace": true,
 
-  "git.autofetch": true,
-  "editor.fontFamily": "Fira Code Regular",
   "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "editor.autoClosingBrackets": "always",
-  "gitHistory.sideBySide": true,
-  "git.enableSmartCommit": true,
-  "editor.renderWhitespace": "all" /* show dots on spaces */,
-  "editor.linkedEditing": true,
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.definitionLinkOpensInPeek": false,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnType": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "css.format.spaceAroundSelectorSeparator": true,
   "notebook.formatOnSave.enabled": true,
   "notebook.formatOnCellExecution": true,
   "liveServer.settings.donotShowInfoMsg": true /* popup */,
   "workbench.startupEditor": "none",
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "editor.wordWrap": "on",
-  "editor.guides.bracketPairs": true,
-  "css.format.spaceAroundSelectorSeparator": true,
-  "editor.experimentalInlineEdit.backgroundColoring": true,
-  "editor.defaultColorDecorators": true /* extension requirement */,
   "html.format.templating": true,
   "html.format.indentHandlebars": true /* file icon required extension */,
   "css.format.preserveNewLines": false,
@@ -193,9 +177,6 @@
   "C_Cpp.clang_format_style": "file",
   "C_Cpp.formatting": "vcFormat" /* must be vcFormat: bcoz of {} */,
   "problems.showCurrentInStatus": true,
-  // "indentRainbow.excludedLanguages": [],
-  "indentRainbow.updateDelay": 1,
-  // "indentRainbow.colorOnWhiteSpaceOnly": true, /* true */
   "better-comments.tags": [
     /* extension required */
     {
@@ -267,18 +248,8 @@
   // "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
   // "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true,
   // "C_Cpp.vcFormat.newLine.scopeBracesOnSeparateLines": true,
-  "gitHistory.alwaysPromptRepositoryPicker": true,
   "task.quickOpen.showAll": true,
-  "editor.hover.delay": 0 /* 10 */,
-  "editor.hover.hidingDelay": 0 /* 10 */,
-  "errorLens.editorHoverPartsEnabled": {
-    /* all true */
-    "messageEnabled": true,
-    "sourceCodeEnabled": true,
-    "buttonsEnabled": true
-  },
-  "editor.experimentalInlineEdit.showToolbar": "always",
-  "editor.inlineSuggest.showToolbar": "always",
+
   "workbench.tree.renderIndentGuides": "always",
   "workbench.view.alwaysShowHeaderActions": true,
   "[markdown]": {
@@ -287,18 +258,23 @@
       "other": true,
       "comments": true,
       "strings": true
-    }
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "files.insertFinalNewline": true,
+    "diffEditor.renderGutterMenu": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always"
+    },
+    "prettier.useTabs": true,
+    "inlineFold.unfoldOnLineSelect": true,
+    "editor.unfoldOnClickAfterEndOfLine": true
   },
-  "editor.minimap.enabled": false,
+  "markdown.validate.enabled": true,
+  "markdown.preview.typographer": true,
   "liveServer.settings.CustomBrowser": "chrome:PrivateMode" /* must be private : temp file info saved */,
   "markdown.extension.completion.enabled": true,
-  "terminal.integrated.initialHint": true /* true */,
-  "editor.quickSuggestions": {
-    /* all true */
-    "comments": "on",
-    "strings": "on"
-  },
-  "editor.quickSuggestionsDelay": 0 /* true */,
+  "terminal.integrated.initialHint": true,
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -373,13 +349,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "html.format.maxPreserveNewLines": 1 /* 1 */,
-  "editor.tokenColorCustomizations": {
-    /* inbuild customize coloring */
-    "comments": {
-      "foreground": "#000" /* "#f88" */,
-      "fontStyle": "italic"
-    }
-  },
+
   "explorer.compactFolders": false /* false: hard to understand file tree */,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -387,28 +357,14 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.fontLigatures": true /* for fira code fonts */,
-  "workbench.activityBar.location": "top",
   /* above code works fine */
-  "editor.showFoldingControls": "always",
-  "editor.semanticHighlighting.enabled": true /* must be true */,
+
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
   // "diffEditor.ignoreTrimWhitespace": true,
   "better-comments.highlightPlainText": true /* true */,
-  "colorful-comments.highlightPlainText": true,
-  /* belows settings are for experiments only */
-  // "markdown.extension.theming.decoration.renderHardLineBreak": true,
-  // "markdown.extension.theming.decoration.renderLink": true,
-  // "markdown.extension.theming.decoration.renderParagraph": true,
-  // "extensions.closeExtensionDetailsOnViewChange": true,
-  // "accessibility.dimUnfocused.enabled": false /* false */,
-  "editor.inlayHints.padding": false /* screen resolution must be large */,
-  // "editor.experimentalInlineEdit.enabled": true,
-  "editor.mouseWheelZoom": true /* needed */,
-  "editor.smoothScrolling": true /* needed */,
-  // "editor.stickyScroll.enabled": false,
+  "colorful-comments.highlightPlainText": true /* needed */,
   // "diffEditor.codeLens": false,
   // "todo-tree.general.statusBar": "total" /* true */,
   /* experiments finished after codelens */
@@ -417,7 +373,6 @@
   "less.validate": true,
   "scss.validate": true,
   "cmake.showOptionsMovedNotification": false,
-  "editor.stickyScroll.enabled": false,
   "peacock.favoriteColors": [
     {
       "name": "Angular Red",
@@ -468,52 +423,23 @@
   // "C_Cpp.vcFormat.space.beforeBlockOpenBrace": false,
   // "C_Cpp.vcFormat.space.preserveInInitializerList": false,
   "colorful-comments.multilineComments": true,
-  "git.confirmSync": false,
-  "editor.unfoldOnClickAfterEndOfLine": true,
   "workbench.colorTheme": "Default Light Modern",
   "liveServer.settings.donotVerifyTags": true,
   "html.format.extraLiners": "body,/html",
   "[java]": {
     "editor.defaultFormatter": "Oracle.oracle-java"
   },
-  "editor.tabCompletion": "on",
-  "editor.suggest.showInlineDetails": true,
-  "editor.suggest.preview": true,
-
-  "editor.lineDecorationsWidth": 0,
-  "editor.glyphMargin": false,
-  "editor.folding": true,
   "code-runner.saveFileBeforeRun": true,
   "code-runner.showExecutionMessage": false,
   "code-runner.clearPreviousOutput": true,
-  "editor.tabFocusMode": false,
-  "editor.codeLens": true,
-  "editor.inlayHints.enabled": "on",
-  "editor.inlineSuggest.enabled": true,
-  "gitlens.graph.minimap.additionalTypes": [
-    "localBranches",
-    "stashes",
-    "remoteBranches",
-    "pullRequests",
-    "tags"
-  ],
+
   "javascript.suggest.completeFunctionCalls": true,
   "emmet.triggerExpansionOnTab": true,
   "files.associations": {
     "*.js": "javascriptreact"
   } /* true */,
-  "editor.suggest.showProperties": true,
   "reactSnippets.settings.typescript": false,
   "reactSnippets.settings.languageScopes": "javascriptreact",
-
-  /* gitlens*/
-  "gitlens.currentLine.enabled": false,
-  "editor.fontSize": 18,
-  "errorLens.statusBarIconsEnabled": true,
-  "editor.suggestSelection": "recentlyUsed",
-  "window.menuBarVisibility": "compact",
-
-  /* error testing install more extensions */
 
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -521,26 +447,12 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "typescript.inlayHints.parameterNames.enabled": "all",
 
-  "editor.codeActions.triggerOnFocusChange": true,
   "files.trimTrailingWhitespace": true,
-  "editor.autoClosingComments": "always",
-  "editor.autoClosingQuotes": "always",
-  "files.autoSaveWhenNoErrors": true,
   "template-string-converter.autoRemoveTemplateString": true,
   "workbench.list.typeNavigationMode": "trigger",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "material-icon-theme.activeIconPack": "react",
-  "indentRainbow.lightIndicatorStyleLineWidth": 10,
-  "indentRainbow.indicatorStyle": "light",
-  "indentRainbow.excludedLanguages": [],
-  /* errorLens */
-  "errorLens.delay": 0,
-  "errorLens.codeLensEnabled": true,
-  "errorLens.enabled": true,
-  "errorLens.messageEnabled": false,
-  "errorLens.codeLens.color": "red",
+
   "terminal.integrated.env.windows": {},
   "console-ninja.featureSet": "Community",
   "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
@@ -548,14 +460,10 @@
   "reactSnippets.settings.importReactOnTop": false,
   "emmet.showAbbreviationSuggestions": true,
   "emmet.optimizeStylesheetParsing": true,
-  "editor.snippetSuggestions": "top",
   "emmet.showSuggestionsAsSnippets": true,
   "zenMode.centerLayout": false,
-  "files.autoSave": "afterDelay",
   "workbench.editor.enablePreviewFromCodeNavigation": true,
-  "workbench.editor.enablePreviewFromQuickOpen": true,
   "markdown.preview.openMarkdownLinks": "inEditor",
-  "inlineFold.unfoldOnLineSelect": true,
   "inlineFold.supportedLanguages": [
     "astro",
     "vue",
@@ -575,38 +483,57 @@
     "typescriptreact",
     "md"
   ],
-  "editor.wordBasedSuggestions": "allDocuments",
-  "git.openRepositoryInParentFolders": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "reactSnippets.settings.prettierEnabled": true,
   "liveshare.increasedGuestLimit": false,
-  "markdown.preview.typographer": true,
-  "markdown.validate.enabled": true,
   "telemetry.telemetryLevel": "off",
-  "window.commandCenter": false,
-  "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1
-  },
-  "vscode-neovim.ctrlKeysForNormalMode": [],
-  "vscode-neovim.ctrlKeysForInsertMode": [],
-  "vim.commandLineModeKeyBindings": [],
-  "vim.easymotion": true,
-  "vim.enableNeovim": true,
-  "vim.handleKeys": {
-    "<C-d>": true,
-    "<C-s>": false,
-    "<C-z>": false
-  },
-  "vim.highlightedyank.enable": true,
-  "vim.smartRelativeLine": true,
-  "vim.statusBarColorControl": true,
-  "vim.useCtrlKeys": false,
-  "vim.useSystemClipboard": true,
   "workbench.colorCustomizations": {
     "statusBar.background": "#005f5f",
     "statusBar.noFolderBackground": "#005f5f",
     "statusBar.debuggingBackground": "#005f5f",
     "statusBar.foreground": "#ffffff",
-    "statusBar.debuggingForeground": "#ffffff"
-  }
+    "statusBar.debuggingForeground": "#ffffff",
+    "editorLineNumber.foreground": "#00aa00",
+    "editorLineNumber.activeForeground": "#a00"
+  },
+  "emmet.excludeLanguages": [],
+  "window.commandCenter": false,
+  "workbench.editor.centeredLayoutAutoResize": false,
+  "javascript.suggest.classMemberSnippets.enabled": false,
+  "javascript.suggest.autoImports": false,
+  "accessibility.verbosity.hover": false,
+
+  "terminal.integrated.fontSize": 14,
+
+  "window.autoDetectHighContrast": false,
+  "auto-close-tag.SublimeText3Mode": true,
+  "quokka.automaticRestart": true,
+
+  "prettier.trailingComma": "all",
+  "window.menuBarVisibility": "compact",
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "fold.level": 5,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "scm.diffDecorationsGutterWidth": 5,
+  "scm.diffDecorationsIgnoreTrimWhitespace": "true",
+  "files.insertFinalNewline": true,
+  "files.autoSave": "afterDelay",
+  "html.hover.references": false,
+  "scss.hover.references": false,
+  "less.hover.references": false,
+  "css.hover.references": false,
+  "inlineFold.unfoldOnLineSelect": true,
+  "autofold.unfold": true,
+  "autofold.default": 5,
+  "autofold.delay": 2,
+
+  "inlineFold.autoFold": false,
+  "workbench.commandPalette.history": 100,
+  "workbench.activityBar.location": "hidden",
+  "inline-parameters.trailingCharacters": "",
+  "inline-parameters.showVariadicNumbers": false,
+  "inline-parameters.enabled": false
 }
