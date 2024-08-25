@@ -1,4 +1,26 @@
 {
+  /* vim disabled */
+  "vim.disableExtension": true,
+  "vim.showcmd": true,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "vim.commandLineModeKeyBindings": [],
+  "vscode-neovim.ctrlKeysForNormalMode": [],
+  "vscode-neovim.ctrlKeysForInsertMode": [],
+  "vim.handleKeys": {
+    "<C-d>": false,
+    "<C-s>": false,
+    "<C-z>": false
+  },
+  "vim.highlightedyank.enable": true,
+  "vim.smartRelativeLine": false,
+  "vim.statusBarColorControl": true,
+  "vim.useCtrlKeys": false,
+  "vim.useSystemClipboard": true,
+  "vim.autoSwitchInputMethod.enable": true,
+  "vim.changeWordIncludesWhitespace": true,
+
   "git.autofetch": true,
   "editor.fontFamily": "Fira Code Regular",
   "terminal.integrated.defaultProfile.windows": "PowerShell",
