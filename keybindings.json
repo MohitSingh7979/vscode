@@ -195,7 +195,7 @@
     "command": "workbench.action.openWorkspace"
   },
   {
-    "key": "ctrl+alt+'",
+    "key": "ctrl+shift+'",
     "command": "editor.action.selectToBracket"
   },
   {
@@ -273,11 +273,7 @@
     "command": "editor.action.joinLines"
   },
   {
-    "key": "ctrl+shift+oem_7",
-    "command": "editor.action.format"
-  },
-  {
-    "key": "alt+a",
+    "key": "alt+z",
     "command": "editor.toggleFold",
     "when": "editorTextFocus && foldingEnabled"
   },
@@ -291,7 +287,7 @@
     "command": "-workbench.action.closeWindow"
   },
   {
-    "key": "alt+f4",
+    "key": "ctrl+f4",
     "command": "workbench.action.closeFolder",
     "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
   },
@@ -375,5 +371,109 @@
   {
     "key": "ctrl+f4",
     "command": "-workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "alt+q",
+    "command": "workbench.action.showEmmetCommands"
+  },
+  {
+    "key": "alt+w",
+    "command": "workbench.action.terminal.kill"
+  },
+  {
+    "key": "alt+w",
+    "command": "-workbench.action.terminal.toggleFindWholeWord",
+    "when": "terminalFindVisible && terminalHasBeenCreated || terminalFindVisible && terminalProcessSupported"
+  },
+  {
+    "key": "alt+f4",
+    "command": "workbench.action.closeWindow"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "-workbench.action.closeWindow"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.focus",
+    "when": "accessibilityModeEnabled && accessibleViewOnLastLine && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewOnLastLine && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "-workbench.action.terminal.focus",
+    "when": "accessibilityModeEnabled && accessibleViewOnLastLine && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewOnLastLine && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
+  },
+  /* custome copy paste for trigger signature help provider */
+  // {
+  //   "key": "ctrl+shift+space", // whatever, even "escape"
+  //   "command": "editor.action.triggerParameterHints",
+  //   "when": "editorHasSignatureHelpProvider && editorTextFocus"
+  // },
+  // {
+  //   "key": "ctrl+shift+space", // use same keybinding as above here fro toggle
+  //   "command": "closeParameterHints",
+  //   "when": "editorHasSignatureHelpProvider && editorTextFocus && parameterHintsVisible"
+  // },
+  // /* settings asked by ai */
+  // {
+  //   "key": "ctrl+alt+h", // Change this to your desired shortcut
+  //   "command": "editor.action.triggerParameterHints",
+  //   "when": "editorTextFocus"
+  // },
+  // {
+  //   "key": "ctrl+alt+t", // Change this to your desired toggle shortcut
+  //   "command": "workbench.action.toggleEditorType",
+  //   "args": {
+  //     "editor.parameterHints.enabled": true
+  //   },
+  //   "when": "editorTextFocus"
+  // },
+
+  // Toggle between terminal and editor focus
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+;",
+    "command": "extension.changeCase.commands"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "-expandLineSelection",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.navigateToLastEditLocation"
+  },
+  {
+    "key": "ctrl+k ctrl+q",
+    "command": "-workbench.action.navigateToLastEditLocation"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "-editor.action.toggleTabFocusMode"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "workbench.action.remote.showMenu"
+  },
+  {
+    "key": "ctrl+alt+o",
+    "command": "-workbench.action.remote.showMenu"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "-workbench.action.showCommands"
+  },
+  {
+    "key": "alt+z",
+    "command": "-editor.action.toggleWordWrap"
   }
 ]
