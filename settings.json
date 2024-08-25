@@ -1,4 +1,79 @@
 {
+  /* editor settings */
+
+  "editor.fontFamily": "Fira Code Regular",
+  "editor.autoClosingBrackets": "always",
+  "editor.renderWhitespace": "all" /* show dots on spaces */,
+  "editor.linkedEditing": true,
+  "editor.definitionLinkOpensInPeek": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.wordWrap": "on",
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.experimentalInlineEdit.backgroundColoring": true,
+  "editor.defaultColorDecorators": true /* extension requirement */,
+  "editor.hover.delay": 0 /* 10 */,
+  "editor.quickSuggestionsDelay": 0 /* true */,
+  "editor.hover.hidingDelay": 0 /* 10 */,
+  "editor.experimentalInlineEdit.showToolbar": "always",
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.fontLigatures": true,
+  "editor.hover.above": false,
+  "editor.hover.enabled": false,
+  "editor.autoClosingDelete": "always",
+  "editor.autoClosingOvertype": "always",
+  "editor.minimap.enabled": false,
+  "editor.snippets.codeActions.enabled": false,
+  "editor.fontSize": 18,
+  "editor.suggestFontSize": 14,
+  "editor.inlayHints.fontSize": 11,
+  "editor.codeLensFontSize": 14,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.unicodeHighlight.includeComments": true,
+  "editor.renderLineHighlight": "all",
+  "editor.foldingStrategy": "indentation",
+  "editor.showFoldingControls": "always",
+  "editor.semanticHighlighting.enabled": true /* must be true */,
+  "editor.smoothScrolling": true /* needed */,
+  "editor.stickyScroll.enabled": false,
+  "editor.codeActions.triggerOnFocusChange": true,
+  "editor.autoClosingComments": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.autoClosingQuotes": "always",
+  "editor.wordBasedSuggestions": "allDocuments",
+  "editor.tabCompletion": "on",
+  "editor.suggest.showInlineDetails": true,
+  "editor.suggest.preview": true,
+  "editor.lineDecorationsWidth": 0,
+  "editor.glyphMargin": false,
+  "editor.suggest.showProperties": true,
+  "editor.folding": true,
+  "editor.tabFocusMode": false,
+  "editor.codeLens": true,
+  "editor.inlayHints.enabled": "on",
+  "editor.suggestSelection": "recentlyUsed",
+  "editor.inlineSuggest.enabled": true,
+
+  "editor.tokenColorCustomizations": {
+    /* inbuild customize coloring */
+    "comments": {
+      "foreground": "#000" /* "#f88" */,
+      "fontStyle": "italic"
+    }
+  },
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": "always"
+  },
+
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on"
+  },
+
   /* vim disabled */
   "vim.disableExtension": true,
   "vim.showcmd": true,
